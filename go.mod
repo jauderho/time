@@ -1,6 +1,7 @@
 module github.com/facebook/time
 
 go 1.22
+toolchain go1.23.7
 
 require (
 	github.com/Knetic/govaluate v3.0.0+incompatible
@@ -21,10 +22,10 @@ require (
 	github.com/stretchr/testify v1.8.4
 	go.bug.st/serial v1.5.0
 	golang.org/x/exp v0.0.0-20220518171630-0b5c67f07fdf
-	golang.org/x/net v0.33.0
+	golang.org/x/net v0.36.0
 	golang.org/x/sync v0.5.0
-	golang.org/x/sys v0.28.0
-	golang.org/x/term v0.27.0
+	golang.org/x/sys v0.30.0
+	golang.org/x/term v0.29.0
 	gopkg.in/yaml.v2 v2.4.0
 )
 
